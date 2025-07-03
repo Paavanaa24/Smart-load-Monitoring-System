@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "author": "ChatGPT",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp32",
+      "top": -20,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-hx711",
+      "id": "hx711",
+      "top": 100,
+      "left": -20,
+      "rotate": 0,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "hx711:VCC",
+      "esp32:3V3",
+      "red"
+    ],
+    [
+      "hx711:GND",
+      "esp32:GND",
+      "black"
+    ],
+    [
+      "hx711:DT",
+      "esp32:4",
+      "green"
+    ],
+    [
+      "hx711:SCK",
+      "esp32:5",
+      "yellow"
+    ]
+  ],
+  "dependencies": {}
+}
