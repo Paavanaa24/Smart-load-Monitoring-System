@@ -71,10 +71,9 @@ User Monitoring Dashboard
 
 ## 📁 Repository Contents
 
-- Arduino Source Code
-- Project Documentation
-- Wokwi Simulation
-- Project Images
+- Arduino source code
+- Project documentation (README)
+- Future improvements and implementation details
 
 ---
 
